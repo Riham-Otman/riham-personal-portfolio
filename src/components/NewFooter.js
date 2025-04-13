@@ -6,7 +6,12 @@ export const Footer = () => {
       <Container>
         <Row className="align-items-center">
           <Col size={12} sm={12} className="text-center">
-            <p className="text-end">Copyright 2025. All Rights Reserved</p>
+            <div className="social-icon">
+            /**
+            insert future social media links here
+             */
+            </div>
+            <p>Copyright 2022. All Rights Reserved</p>
           </Col>
         </Row>
       </Container>
