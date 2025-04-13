@@ -16,9 +16,8 @@ export const Banner = () => {
     const ticker = setInterval(() => {
       tick();
     }, delta);
-
     return () => clearInterval(ticker);
-  }, [text, delta]); // ✅ fixed dependencies
+  }, [text, delta]); 
 
   const tick = () => {
     const i = loopNum % toRotate.length;
