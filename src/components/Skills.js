@@ -6,6 +6,7 @@ import "react-multi-carousel/lib/styles.css";
 import arrow1 from "../assets/img/arrow1.svg";
 import arrow2 from "../assets/img/arrow2.svg";
 import colorSharp from "../assets/img/color-sharp.png";
+import { KeyFill } from "react-bootstrap-icons";
 
 export const Skills = () => {
     const responsive = {
@@ -26,7 +27,7 @@ export const Skills = () => {
             breakpoint: { max: 464, min: 0 },
             items: 1,
         },
-    };
+    };    
 
     return (
         <section className="skill" id="skills">
@@ -59,10 +60,7 @@ export const Skills = () => {
                                     <h5>Selenium, JUnit</h5>
                                 </div>
                                 <div className="item">
-                                    <h5>Version Control: Git</h5>
-                                </div>
-                                <div className="item">
-                                    <h5>Communication & Problem-Solving</h5>
+                                    <h5>Git</h5>
                                 </div>
                             </Carousel>
                         </div>
