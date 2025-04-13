@@ -55,7 +55,7 @@ export const NavBar = () => {
                 <a href="#"><img src={navIcon3} alt="" /></a>
               </div>
               <HashLink to='#connect'>
-                <button className="vvd"><span>Let’s Connect</span></button>
+                <button className="vvd" onClick={() => window.open('https://www.linkedin.com/in/riham-otman-b12696211/', '_blank')}><span>Let’s Connect</span></button>
               </HashLink>
             </span>
           </Navbar.Collapse>
